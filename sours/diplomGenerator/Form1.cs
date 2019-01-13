@@ -14,6 +14,7 @@ namespace diplomGenerator
 {
     public partial class Form1 : Form
     {
+        string inksPath = "";
         string[] head;
         string[,] data;
         string fon = "";
@@ -83,6 +84,30 @@ namespace diplomGenerator
                     tfon = null;
                     GC.Collect();
                 }
+            }
+            if (checkBox1.Checked&&checkBox4.Checked)
+            {
+                string[] list = Directory.GetFiles(outPath);
+                for (int i = 0; i < list.Length; i++)
+                {
+                    if (list[i].IndexOf(".svg",list[i].Length-5)>0)
+                    {
+                        System.Diagnostics.Process p = new System.Diagnostics.Process();
+                        p.StartInfo.FileName = inksPath;
+                        p.StartInfo.Arguments = "-f "+list[i]+" -A "+ list[i].Replace(".svg",".pdf");
+                        p.Start();
+
+                    }
+                }
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if(openFileDialog3.ShowDialog() == DialogResult.OK)
+            {
+                checkBox1.Checked = true;
+                inksPath = openFileDialog3.FileName;
             }
         }
     }
