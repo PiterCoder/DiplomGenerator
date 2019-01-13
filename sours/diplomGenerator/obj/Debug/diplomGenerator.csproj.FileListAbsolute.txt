@@ -1,0 +1,12 @@
+c:\users\piter\documents\visual studio 2015\Projects\diplomGenerator\diplomGenerator\bin\Debug\diplomGenerator.exe.config
+c:\users\piter\documents\visual studio 2015\Projects\diplomGenerator\diplomGenerator\bin\Debug\diplomGenerator.exe
+c:\users\piter\documents\visual studio 2015\Projects\diplomGenerator\diplomGenerator\bin\Debug\diplomGenerator.pdb
+c:\users\piter\documents\visual studio 2015\Projects\diplomGenerator\diplomGenerator\obj\Debug\diplomGenerator.csprojResolveAssemblyReference.cache
+c:\users\piter\documents\visual studio 2015\Projects\diplomGenerator\diplomGenerator\obj\Debug\diplomGenerator.Form1.resources
+c:\users\piter\documents\visual studio 2015\Projects\diplomGenerator\diplomGenerator\obj\Debug\diplomGenerator.Properties.Resources.resources
+c:\users\piter\documents\visual studio 2015\Projects\diplomGenerator\diplomGenerator\obj\Debug\diplomGenerator.csproj.GenerateResource.Cache
+c:\users\piter\documents\visual studio 2015\Projects\diplomGenerator\diplomGenerator\obj\Debug\diplomGenerator.exe
+c:\users\piter\documents\visual studio 2015\Projects\diplomGenerator\diplomGenerator\obj\Debug\diplomGenerator.pdb
+C:\Users\Piter\Source\Repos\DiplomGenerator\sours\diplomGenerator\bin\Debug\diplomGenerator.exe.config
+C:\Users\Piter\Source\Repos\DiplomGenerator\sours\diplomGenerator\obj\Debug\diplomGenerator.exe
+C:\Users\Piter\Source\Repos\DiplomGenerator\sours\diplomGenerator\obj\Debug\diplomGenerator.pdb
