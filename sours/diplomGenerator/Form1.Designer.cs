@@ -157,7 +157,8 @@
             // 
             // openFileDialog3
             // 
-            this.openFileDialog3.FileName = "inkscape.exe";
+            this.openFileDialog3.FileName = "C:\\Program Files\\Inkscape\\inkscape.exe";
+            this.openFileDialog3.Filter = "исполняемый файл (inkscape.exe)|inkscape.exe";
             // 
             // Form1
             // 

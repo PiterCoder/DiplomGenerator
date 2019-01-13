@@ -64,7 +64,7 @@ namespace diplomGenerator
         {
             if((checkBox3.Checked == checkBox2.Checked)&&(checkBox4.Checked== checkBox3.Checked) && (checkBox3.Checked == true))
             {
-                progressBar1.Maximum = data.Length / head.Length;
+                progressBar1.Maximum = data.Length / head.Length-1;
                 for(int i =0;i< progressBar1.Maximum; i++)
                 {
                     string tfon = new string(fon.ToCharArray());
