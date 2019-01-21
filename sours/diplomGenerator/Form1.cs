@@ -94,14 +94,14 @@ namespace diplomGenerator
                     {
                         System.Diagnostics.Process p = new System.Diagnostics.Process();
                         p.StartInfo.FileName = inksPath;
-                        p.StartInfo.Arguments = "-f "+list[i]+" -A "+ list[i].Replace(".svg",".pdf");
+                        p.StartInfo.Arguments = "-f \""+list[i]+"\" -A \""+ list[i].Replace(".svg",".pdf")+"\"";
                         p.Start();
 
                     }
                 }
             }
         }
-
+        
         private void button5_Click(object sender, EventArgs e)
         {
             if(openFileDialog3.ShowDialog() == DialogResult.OK)
